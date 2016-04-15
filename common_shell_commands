@@ -32,12 +32,12 @@ You can get help on any command by typing man (for manual) then the command for 
 
 Software developers write programs using a text editor.  If you are familiar with a Word Processor, like Microsft Word, think of a text editor as similar except there is no formatting allowed.  A text editor doesn't bold or italisize text.  It doesn't allow font changes, or font size changes.  It is a tool for typing and editing plain text.
 
-Your text editor of choice is up to you.  I like one called Vim, but other's don't like it at all.  On UBUNTU the common editor is called gedit.  For Macs, there is one called Text Edit.  But there are many others.  Ask your friends what they use.  Try out several if you like.  Many are free.
+Your text editor of choice is up to you.  I like one called Vim, but other's don't like it at all.  On UBUNTU the common editor is called gedit.  For Macs, there is one called TextEdit.  But there are many others.  Ask your friends what they use.  Try out several if you like.  Many are free.  TextEdit is a word processor but you can save your files as plain text, or even set your preferences to only use plain text as a default.  More information here: http://www.tekrevue.com/tip/textedit-plain-text-mode/
 
 To edit a file you type in the name of your editor followed by the file name.  If the file exists, it will load up, and you can continue from where you left off.  If it is a new file, you will see a blank canvas for you to start typing.
 
 ## Understanding Directories
 In most GUIs, directories are called Folders.  Folders can contain files and other Folders.  The same is true in the terminal shell.  It's just more common to call them directories.  They are the same thing.
 
-
+Reference http://teaching.idallen.com/cst8207/12f/notes/160_pathnames.html
 

@@ -1,0 +1,43 @@
+The linux shell gives you access to your complete linux system without having to use the GUI (Gnome, Unity, Mac GUI, etc.).  If you have never used the shell, it will be daunting at first.  Once you learn and expand your knowledge of shell commands, you will find that you can get more done more quickly as compared to using your GUI.
+
+The shell can also be known as the *command line*.  If you are a really old timer, and remember MSDOS (before Windows), the shell looks like the DOS command line
+
+If you are in your GUI, find the Terminal Icon, and click it.  Up will pop a window with a menu and a few characters indication who you are, and in what directory you are operating.  Mine looks like this:
+
+    jcg@jcg-netbook:~/code/venvs$ 
+
+This shows that I am user jcg on a machine called jcg-netbook.  I am currently in the present working directory (PWD) ~/code/venvs.  The tilda (~) is short hand for my home directory, which in a linux system is `/home/jcg/code/venvs`.
+
+type `ls` at the prompt and you will see a list of files in your directory. If you have no files, type `touch file1`, then type ls again.  You can see that you have created a file called file1
+
+Here is what it looks like on my machine:
+
+    jcg@jcg-netbook:~/code/venvs/git_course$ ls
+    mac_add_terminal_to_dock  README.md  topics
+    jcg@jcg-netbook:~/code/venvs/git_course$ touch file1
+    jcg@jcg-netbook:~/code/venvs/git_course$ ls
+    file1  mac_add_terminal_to_dock  README.md  topics
+    jcg@jcg-netbook:~/code/venvs/git_course$ 
+
+Insert info on OSX 10 text editors
+
+Other shell commands which are useful are:
+
+1. cd -- change directory
+2. mv -- move a file
+3. cp -- copy a file to another directory or name
+4. rm -- remove a file (delete it)
+
+You can get help on any command by typing man (for manual) then the command for which you need help.  Shell commands have many options to tailor them to specific purposes.
+
+Software developers write programs using a text editor.  If you are familiar with a Word Processor, like Microsft Word, think of a text editor as similar except there is no formatting allowed.  A text editor doesn't bold or italisize text.  It doesn't allow font changes, or font size changes.  It is a tool for typing and editing plain text.
+
+Your text editor of choice is up to you.  I like one called Vim, but other's don't like it at all.  On UBUNTU the common editor is called gedit.  For Macs, there is one called Text Edit.  But there are many others.  Ask your friends what they use.  Try out several if you like.  Many are free.
+
+To edit a file you type in the name of your editor followed by the file name.  If the file exists, it will load up, and you can continue from where you left off.  If it is a new file, you will see a blank canvas for you to start typing.
+
+## Understanding Directories
+In most GUIs, directories are called Folders.  Folders can contain files and other Folders.  The same is true in the terminal shell.  It's just more common to call them directories.  They are the same thing.
+
+
+

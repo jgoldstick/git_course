@@ -40,4 +40,6 @@ To edit a file you type in the name of your editor followed by the file name.  I
 In most GUIs, directories are called Folders.  Folders can contain files and other Folders.  The same is true in the terminal shell.  It's just more common to call them directories.  They are the same thing.
 
 Reference http://teaching.idallen.com/cst8207/12f/notes/160_pathnames.html
+http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line
 
+"

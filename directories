@@ -1,5 +1,29 @@
 ## Directories
 
-In Linux and Linux like systems (BSD used on Macs) organize files into folders that can be visualized as and inverted tree.  The root is the top of the tree.  It is designated with a /.  Contained in the root are other directories (branches) and files (leaves).  Each directory can contain subordinate directories and files.
+In Linux and Linux like systems (BSD used on Macs) organize files into folders that can be visualized as and inverted tree.  The root is the top of the tree.  It is designated with aforward slash `/`.  Contained in the root are other directories (branches) and files (leaves).  Each directory can contain subordinate directories and files.
 
-When using the shell, you are 'in' a particular directory.  You can use the `pwd` (present working directory) to find out where you are.  A file can be identified by its abosolute or reletive path.  'pwd' displays an abosolute path.  That is, it starts with the root (/) and displays each of the directories in turn that lead to your pwd.
+When using the shell, you are __in__ a particular directory.  You can use the `pwd` (present working directory) to find out where you are.  A file can be identified by its abosolute or relative path.  'pwd' displays an abosolute path.  That is, it starts with the root (/) and displays each of the directories in turn that lead to your pwd.
+
+Here is an example from my computer:
+
+    jcg@jcg-netbook:~/code/venvs/git_course$ tree
+    .
+    ├── directories
+    ├── file1
+    ├── mac_add_terminal_to_dock
+    ├── README.md
+    ├── shell
+    ├── toc
+    ├── toc~
+    └── what_is_version_control
+    
+Note that the present working directory (pwd) is `~/code/venvs/git_course`
+
+if I want to view the file called toc, I can use a relative path:
+
+    cat toc
+    
+or an absolute path:
+
+    cat ~/code/venvs/git_course/toc
+

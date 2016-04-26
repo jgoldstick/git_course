@@ -1,0 +1,5 @@
+## Directories
+
+In Linux and Linux like systems (BSD used on Macs) organize files into folders that can be visualized as and inverted tree.  The root is the top of the tree.  It is designated with a /.  Contained in the root are other directories (branches) and files (leaves).  Each directory can contain subordinate directories and files.
+
+When using the shell, you are 'in' a particular directory.  You can use the `pwd` (present working directory) to find out where you are.  A file can be identified by its abosolute or reletive path.  'pwd' displays an abosolute path.  That is, it starts with the root (/) and displays each of the directories in turn that lead to your pwd.

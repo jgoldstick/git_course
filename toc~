@@ -1,0 +1,21 @@
+What is Version Control
+set up terminal on dock
+common shell commands
+directory structure from shell standpoint, not gui
+installing git
+http://git-scm.com/download/mac to download
+
+setting up git
+git docs
+creating a git repository
+adding
+committing
+What is a vcs -- history -- git features
+tags, branches
+github account setup
+create a git repository by cloning one in github (or elsewhere)
+pushing to github
+git status, git diff
+merging
+text editor -- not word processor
+

@@ -1,3 +1,14 @@
+Version control is a component of software configuration management.  But it need not be limited to software files.  Version control systems keep track of changes in a set of files.  The set might be the files used to create a website, a desktop computer program, a phone or tablet app, or even the set of files of chapters to a book.
+
+A computer program is normally divided up into several files.  Each file has a specific purpose, or area of control. As a program is written, updated, and tested, changes are made to one or more files.  By tracking the changes in these files, it is easy to retrieve versions of the project at each point in time that they were updated to the version control system.  This facilitates bug fixing
+
+Git is a distributed version control system.  It allows copies of the complete project history to be copied to any number of users and machines.  When one user makes changes, he commits them to his repository.  He can then push his repository to any others that exist elsewhere.
+
+Usually a repository is chosen to be the master repository.  There is nothing special about it, except that it is used as a central gathering point for changes.  When a user is satisfied that his local repository is worth pushing to the master, he can do that.  If another user has made changes to the same files, the version control system reviews the changes made by each contributor, and merges the results if there are no conflicts.  If there are confrics (both contributors changed the same area of code in different ways, the system presents the conflicted areas so that a person can review and edit the changes manually.
+
+Sometimes a contributor might want to try out some new feature, but leave the main code intact, so as not to break the working system.  He can create a named branch, which uses all of the up to date files as of the time the branch is created.  Further changes are tracked on the branch, and not on the main trunk of the repository.  If the experiment proves successful, he can later merge the branch back into the trunk code.  If the experiment is abandoned, he can delete the branch.
+
+
 references:
 
 version control on wikipedia https://en.wikipedia.org/wiki/Version_control
